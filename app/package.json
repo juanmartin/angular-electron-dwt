@@ -5,5 +5,8 @@
   "private": true,
   "dependencies": {
     "@electron/remote": "1.0.4"
+  },
+  "devDependencies": {
+    "dwt": "^17.1.1"
   }
 }
