@@ -28,14 +28,14 @@ function createWindow(): BrowserWindow {
       enableRemoteModule : true // true if you want to run 2e2 test  with Spectron or use remote module in renderer context (ie. Angular)
     },
   });
-  
+
 
   if (serve) {
     win.webContents.openDevTools();
     require('electron-reload')(__dirname, {
       electron: require(path.join(__dirname, '/../node_modules/electron'))
     });
-    win.loadURL('http://localhost:4200');
+    win.loadURL('https://localhost:4200');
   } else {
     // Path when running electron executable
     let pathIndex = './index.html';
