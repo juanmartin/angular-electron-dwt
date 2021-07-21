@@ -35,7 +35,7 @@ function createWindow(): BrowserWindow {
     require('electron-reload')(__dirname, {
       electron: require(path.join(__dirname, '/../node_modules/electron'))
     });
-    win.loadURL('https://localhost:4200');
+    win.loadURL('http://localhost:4200');
   } else {
     // Path when running electron executable
     let pathIndex = './index.html';

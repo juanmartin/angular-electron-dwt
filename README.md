@@ -5,5 +5,5 @@ I just added a [DWT](https://dynamsoft.com) sample.
 - Clone repo, cd into directory.
 - `npm i`
 - set `Dynamsoft.DWT.organizationID` or `Dynamsoft.DWT.ProductKey`
-- `npm run startssl`
+- `npm run start`
 - Click Go to DWT
